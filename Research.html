@@ -2,7 +2,7 @@
 <html>
 <head>
 <link rel="Stylesheet" type="text/css" href="style.css">
-<title>Research</title>
+<title>Research - Ben Jacobsen</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
@@ -12,11 +12,13 @@
     <a href="Research.html">Research</a> |
     <!-- <a href="PersonalStuff.html">Personal Stuff</a> | -->
     <a href="Contact.html">Contact</a> |
-    <a href=assets/bjacobsen_resume.pdf>Resume</a>
+    <a href=assets/bjacobsen_resume.pdf target="_blank">Resumé</a>
     </center>
+    <hr>
     <hr>
     <div class="content">
     
+
 <div id="Research"><h2 id="Research" class="header"><a href="#Research">Research</a></h2></div>
 
 <p>
@@ -33,7 +35,7 @@ I'm delighted to share that my recent work on differentially-private systems for
 
 <div id="Research-Graduate Publications-Prediction with Expert Advice under Local Differential Privacy (ICLR 2026)"><h4 id="Prediction with Expert Advice under Local Differential Privacy (ICLR 2026)" class="header"><a href="#Research-Graduate Publications-Prediction with Expert Advice under Local Differential Privacy (ICLR 2026)">Prediction with Expert Advice under Local Differential Privacy (ICLR 2026)</a></h4></div>
 <p>
-<a href="https://arxiv.org/abs/2512.06971">(Original Paper)</a> <a href="https://github.com/ben-jacobsen/dp-online-learning">(Github)</a>
+<a href="https://arxiv.org/abs/2512.06971">(Original Paper)</a> | <a href="https://github.com/ben-jacobsen/dp-online-learning">(Github)</a>
 </p>
 
 <p>
@@ -42,11 +44,11 @@ In this work, we propose two new algorithms for privacy-preserving online learni
 
 <div id="Research-Graduate Publications-Private Continual Counting of Unbounded Streams (NeurIPS 2025)"><h4 id="Private Continual Counting of Unbounded Streams (NeurIPS 2025)" class="header"><a href="#Research-Graduate Publications-Private Continual Counting of Unbounded Streams (NeurIPS 2025)">Private Continual Counting of Unbounded Streams (NeurIPS 2025)</a></h4></div>
 <p>
-<a href="https://arxiv.org/abs/2506.15018">(Original Paper)</a> <a href="https://neurips.cc/media/PosterPDFs/NeurIPS%202025/118989.png?t=1764893134.9133718">(Poster)</a> <a href="https://neurips.cc/virtual/2025/loc/san-diego/poster/118989">(Video)</a> <a href="https://github.com/ben-jacobsen/central-dpolo">(Github)</a>
+<a href="https://arxiv.org/abs/2506.15018">(Original Paper)</a> | <a href="https://neurips.cc/media/PosterPDFs/NeurIPS%202025/118989.png?t=1764893134.9133718">(Poster)</a> | <a href="https://neurips.cc/virtual/2025/loc/san-diego/poster/118989">(Video)</a> | <a href="https://github.com/ben-jacobsen/central-dpolo">(Github)</a>
 </p>
 
 <p>
-"Private Continual Counting" refers to the problem of computing private estimates for every partial sum of a sequence at once --- for example, if you were running a test clinic during an epidemic, you might want to publish running totals of the number of positive tests you've seen without revealing the outcome of any one test in particular. This problem has attracted a lot of attention in the last few years because of its applications in machine learning (e.g. in the <a href="https://proceedings.mlr.press/v139/kairouz21b/kairouz21b.pdf">DP-FTRL</a> algorithm). Our paper addresses a major limitation of prior algorithms for private counting, which is that they are all <em>bounded</em>: their privacy guarantees only hold when the full input size is known in advance. Building on a cool duality between lower-triangular Toeplitz matrices and generating functions (inspired by <a href="https://arxiv.org/abs/2404.16706">Dvijotham et al.</a>), we design and analyze the first algorithm for private continual counting which can guarantee privacy and nearly-optimal utility even for inputs of unbounded size.
+"Private Continual Counting" refers to the problem of computing private estimates for every partial sum of a sequence at once - for example, if you were running a test clinic during an epidemic, you might want to publish running totals of the number of positive tests you've seen without revealing the outcome of any one test in particular. This problem has attracted a lot of attention in the last few years because of its applications in machine learning (e.g. in the <a href="https://proceedings.mlr.press/v139/kairouz21b/kairouz21b.pdf">DP-FTRL</a> algorithm). Our paper addresses a major limitation of prior algorithms for private counting, which is that they are all <em>bounded</em>: their privacy guarantees only hold when the full input size is known in advance. Building on a cool duality between lower-triangular Toeplitz matrices and generating functions (inspired by <a href="https://arxiv.org/abs/2404.16706">Dvijotham et al.</a>), we design and analyze the first algorithm for private continual counting which can guarantee privacy and nearly-optimal utility even for inputs of unbounded size.
 </p>
 
 <div id="Research-Undergraduate Publications"><h3 id="Undergraduate Publications" class="header"><a href="#Research-Undergraduate Publications">Undergraduate Publications</a></h3></div>
@@ -56,6 +58,7 @@ You can also read about the projects I worked on as an undergraduate research as
 </p>
 
 <div id="Research-Undergraduate Publications-Authorship Attribution (Honors Thesis)"><h4 id="Authorship Attribution (Honors Thesis)" class="header"><a href="#Research-Undergraduate Publications-Authorship Attribution (Honors Thesis)">Authorship Attribution (Honors Thesis)</a></h4></div>
+
 
 <p>
 My work with <a href="https://www2.cs.arizona.edu/~debray/">Dr. Debray</a> focused on understanding the problem of authorship attribution for programs, and reckoning with the surprising fact that it seems to be possible to figure out who wrote a program solely using stylistic features from the compiled binary. After reproducing a state-of-the-art system for binary classification, we developed a novel gray-box technique for obscuring an author's stylistic fingerprint using non-standard compiler optimizations. Our paper presenting our results and discussing the current state of binary stylometry was accepted for presentation at the 2021 CheckMATE Workshop.
@@ -72,7 +75,7 @@ MetroSets is an online platform for set visualization which I helped to create a
 </p>
 
 <p>
-<img src="https://raw.githubusercontent.com/ben-jacobsen/ben-jacobsen.github.io/master/assets/mtg_revision.png" alt="img" style="width:50%;height:50%;" />
+<img src="https://raw.githubusercontent.com/ben-jacobsen/ben-jacobsen.github.io/master/assets/mtg_revision.png" alt="img" class="inline-figure" />
 </p>
 
 <p>
