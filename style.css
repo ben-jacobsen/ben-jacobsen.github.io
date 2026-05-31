@@ -11,13 +11,19 @@ body {
   body {
     margin: 2em 4em;
   }
+  img.profile-photo {
+    float: right;
+    display: inline;
+    margin: 0 0 1em 2em; 
+  }
 }
 
 img.profile-photo {
   max-width: 180px;
   border-radius: 50%;
-  float: right;
-  margin: 0 0 1em 2em;
+  /* float: right; */
+  display: block;
+  margin: 0 auto 1em auto;
 }
 
 img.inline-figure {
