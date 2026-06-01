@@ -33,16 +33,18 @@
 <a href="https://arxiv.org/abs/2605.28952">(Preprint)</a> 
 </p>
 <p>
-Simple hypothesis testing is one of the most fundamental problems in statistics. 
-The question of whether and to what extent hypothesis testing becomes harder under differential privacy constraints therefore carries a lot of implications for the difficulty of other statistical tasks.
-Our work gives an essentially complete answer to this question for asymmetric hypothesis testing under pure DP: for any arbitrary pair of distributions P and Q, we provide an instance-dependent upper bound on the difficulty of distinguishing Q from P under pure DP, and we design a concrete algorithm that matches that bound exactly up to lower-order terms.
-Our results also extend to the sequential setting, where we prove nearly matching upper and lower bounds on the expected stopping time of any sequential simple hypothesis test under pure DP, once again without making any assumptions about the distributions at hand.
+<!-- Simple hypothesis testing is one of the most fundamental problems in statistics. --> 
+<!-- The question of whether and to what extent hypothesis testing becomes harder under differential privacy constraints therefore carries a lot of implications for the difficulty of other statistical tasks. -->
+Simple hypothesis testing - that is, deciding whether a dataset was drawn from a null distribution P or an alternate distribution Q - is one of the most fundamental problems in statistics.
+Our work gives an essentially complete understanding of the difficulty of asymmetric hypothesis testing under pure DP. 
+For any arbitrary pair of distributions P and Q, we provide an instance-dependent upper bound on the difficulty of distinguishing Q from P under pure DP, and we design a concrete algorithm that matches that bound exactly up to lower-order terms.
+Our results also extend to the sequential setting, where we prove nearly matching upper and lower bounds on the expected stopping time of any sequential simple hypothesis test under pure DP.
 </p>
 <p>
 We achieve this by using a set of statistical methods known as <a href=https://arxiv.org/pdf/2410.23614>e-values</a>. 
-Briefly, one can think of an e-value as a generalized likelihood ratio. 
-The Neyman-Pearson lemma tells us that the likelihood ratio is the optimal statistic for hypothesis testing, and this fact lets us characterize the fundamental difficulty of distinguishing one distribution from another without privacy constraints.
-In the same way, we show that a particular algorithm yields the (asymptotically) optimal private e-value for any pair of distributions, and this lets us characterize of the fundamental difficulty of distinguishing one distribution from another under pure DP.
+At a high level, you can think of an e-value as a generalized likelihood ratio. 
+The Neyman-Pearson lemma tells us that the likelihood ratio is the optimal statistic for hypothesis testing, and this fact lets us characterize the fundamental difficulty of any non-private hypothesis test.
+In the same way, we show that a particular algorithm outputs the (asymptotically) optimal private e-value for any pair of distributions, and this lets us characterize the fundamental difficulty of any private hypothesis test.
 </p>
 
 <div id="Research-Graduate Publications-Privacy, Prediction, and Allocation (FORC 2026)"><h4 id="Privacy, Prediction, and Allocation (FORC 2026)" class="header"><a href="#Research-Graduate Publications-Privacy, Prediction, and Allocation (FORC 2026)">Privacy, Prediction, and Allocation (FORC 2026)</a></h4></div>
