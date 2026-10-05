@@ -12,7 +12,7 @@
     <a href="Research.html">Research</a> |
     <!-- <a href="PersonalStuff.html">Personal Stuff</a> | -->
     <a href="Contact.html">Contact</a> |
-    <a href=assets/bjacobsen_resume.pdf target="_blank">Resumé</a>
+    <a href=assets/bjacobsen_cv.pdf target="_blank">CV</a>
     </center>
     <hr>
     <hr>
@@ -28,6 +28,7 @@
 
 <div id="Research-Graduate Publications"><h3 id="Graduate Publications" class="header"><a href="#Research-Graduate Publications">Graduate Publications</a></h3></div>
 
+<<<<<<< HEAD
 <div id="Research-Graduate Publications-Optimal Rates for Differentially Private Hypothesis Testing with E-values"><h4 id="Optimal Rates for Differentially Private Hypothesis Testing with E-values" class="header"><a href="#Research-Graduate Publications-Optimal Rates for Differentially Private Hypothesis Testing with E-values">Optimal Rates for Differentially Private Hypothesis Testing with E-values</a></h4></div>
 <p>
 <a href="https://arxiv.org/abs/2605.28952">(Preprint)</a> 
@@ -64,6 +65,32 @@ That is, even if aid is targeted on the basis of sensitive characteristics like 
 DP fundamentally limits the level of predictive accuracy we can hope to achieve here, and so it might seem plausible that imposing privacy constraints could tip the scales away from highly-targeted allocation strategies.
 However, we show that this isn't the case: across a variety of different settings, we consistently find that error from privacy is only a second-order effect.
 Instead, the optimal choice of strategy is largely determined by structural factors: levels of social inequality, the cost of data acquisition, and the degree to which it's even possible to predict the outcomes we care about at an individual level.
+=======
+<div id="Research-Graduate Publications-Optimal Rates for Differentially Private Hypothesis Testing (NeurIPS 2026)"><h4 id="Optimal Rates for Differentially Private Hypothesis Testing (NeurIPS 2026)" class="header"><a href="#Research-Graduate Publications-Optimal Rates for Differentially Private Hypothesis Testing (NeurIPS 2026)">Optimal Rates for Differentially Private Hypothesis Testing (NeurIPS 2026)</a></h4></div>
+<p>
+<a href="https://arxiv.org/abs/2605.28952">(Paper)</a> 
+</p>
+
+<p>
+Simple hypothesis testing - that is, deciding whether a dataset was drawn from a null distribution P or an alternate distribution Q - is one of the most fundamental problems in statistics. Our work gives an essentially complete understanding of the difficulty of asymmetric hypothesis testing under pure DP. For any arbitrary pair of distributions P and Q, we provide an instance-dependent upper bound on the difficulty of distinguishing Q from P under pure DP, and we design a concrete algorithm that matches that bound exactly up to lower-order terms. Our results also extend to the sequential setting, where we prove nearly matching upper and lower bounds on the expected stopping time of any sequential simple hypothesis test under pure DP.
+</p>
+
+<p>
+We achieve this by using a set of statistical methods known as e-values. At a high level, you can think of an e-value as a generalized likelihood ratio. The Neyman-Pearson lemma tells us that the likelihood ratio is the optimal statistic for hypothesis testing, and this fact lets us characterize the fundamental difficulty of any non-private hypothesis test. In the same way, we show that a particular algorithm outputs the (asymptotically) optimal private e-value for any pair of distributions, and this lets us characterize the fundamental difficulty of any private hypothesis test. 
+</p>
+
+<div id="Research-Graduate Publications-Privacy, Prediction, and Allocation (FORC 2026)"><h4 id="Privacy, Prediction, and Allocation (FORC 2026)" class="header"><a href="#Research-Graduate Publications-Privacy, Prediction, and Allocation (FORC 2026)">Privacy, Prediction, and Allocation (FORC 2026)</a></h4></div>
+<p>
+<a href="https://arxiv.org/abs/2604.15596">(Paper)</a> 
+</p>
+
+<p>
+ When managing real-world systems for allocating resources, it's often necessary to make tradeoffs and prioritize who should receive a particular benefit (e.g. humanitarian aid, housing assistance, or poverty relief). The standard approach for this problem is to prioritize individuals based on predictions about how big an impact the benefit would have on them. This induces a tradeoff: should we spend most of our budget on training predictive models to make sure we correctly identify those most in need? Or is it better to use a simple, cheap model, and focus our resources on helping as many people as we can?
+</p>
+
+<p>
+In this work, we study how this tradeoff changes when we introduce differential privacy constraints. That is, even if aid is targeted on the basis of sensitive characteristics like poverty or disability, we want to guarantee that our choice of allocation won't implicitly reveal the characteristics of any particular individual. DP fundamentally limits the level of predictive accuracy we can hope to achieve here, and so it might seem plausible that imposing privacy constraints could tip the scales away from highly-targeted allocation strategies. However, we show that this isn't the case: across a variety of different settings, we consistently find that error from privacy is only a second-order effect. Instead, the optimal choice of strategy is largely determined by structural factors: levels of social inequality, the cost of data acquisition, and the degree to which it's even possible to predict the outcomes we care about at an individual level. 
+>>>>>>> 5d330cf (minor updates; resume -> cv)
 </p>
 
 <div id="Research-Graduate Publications-Prediction with Expert Advice under Local Differential Privacy (ICLR 2026)"><h4 id="Prediction with Expert Advice under Local Differential Privacy (ICLR 2026)" class="header"><a href="#Research-Graduate Publications-Prediction with Expert Advice under Local Differential Privacy (ICLR 2026)">Prediction with Expert Advice under Local Differential Privacy (ICLR 2026)</a></h4></div>
